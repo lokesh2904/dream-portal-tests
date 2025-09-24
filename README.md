@@ -12,23 +12,21 @@ This project automates the testing of the **Dream Portal** web application. It v
 
 ## Project Structure
 
-dream-portal-tests/
 ├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── com/
-│ │ └── assignment/
-│ │ ├── pages/ # Page classes (HomePage, DreamDiaryPage, SummaryPage)
-│ │ └── utils/ # Utility class (AIClassifier)
-│ └── test/
-│ └── java/
-│ └── com/
-│ └── assignment/
-│ └── tests/ # Test classes (BaseTest, DreamPortalTest)
-├── pom.xml # Maven configuration
-├── testng.xml # TestNG suite
-└── README.md # Project documentation
-
+      main/
+        java/
+        com/
+        assignment/
+        pages/ # Page classes (HomePage, DreamDiaryPage, SummaryPage)
+        utils/ # Utility class (AIClassifier)
+       test/
+       java/
+       com/
+       assignment/
+       tests/ # Test classes (BaseTest, DreamPortalTest)
+     pom.xml # Maven configuration
+     testng.xml # TestNG suite
+     README.md # Project documentation
 ## Features Tested
 - Navigate to Dream Portal home page
 - Open **My Dreams** section
